@@ -13,9 +13,12 @@
 		6B01271325C61AF30004DAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B01271225C61AF30004DAC4 /* Assets.xcassets */; };
 		6B01271625C61AF30004DAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B01271525C61AF30004DAC4 /* Preview Assets.xcassets */; };
 		6B01271925C61AF30004DAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01271725C61AF30004DAC4 /* LaunchScreen.storyboard */; };
+		D1811DDD2C45BDB027FFB0C9 /* Pods_AutoSheetViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BA2FF44AD51B86B887D9BD /* Pods_AutoSheetViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1598ECF8E8DBB1C81858996F /* Pods-AutoSheetViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSheetViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		32BA2FF44AD51B86B887D9BD /* Pods_AutoSheetViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoSheetViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B01270925C61AF10004DAC4 /* AutoSheetViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSheetViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B01270C25C61AF10004DAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B01270E25C61AF10004DAC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		6B01271525C61AF30004DAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B01271825C61AF30004DAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B01271A25C61AF30004DAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796111AB8480BA672F1ACC44 /* Pods-AutoSheetViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSheetViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1811DDD2C45BDB027FFB0C9 /* Pods_AutoSheetViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D77FC1B7B025006085D5AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32BA2FF44AD51B86B887D9BD /* Pods_AutoSheetViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B01270025C61AF10004DAC4 = {
 			isa = PBXGroup;
 			children = (
 				6B01270B25C61AF10004DAC4 /* AutoSheetViewer */,
 				6B01270A25C61AF10004DAC4 /* Products */,
+				818D2682574917EF85D643CF /* Pods */,
+				18D77FC1B7B025006085D5AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +90,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		818D2682574917EF85D643CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1598ECF8E8DBB1C81858996F /* Pods-AutoSheetViewer.debug.xcconfig */,
+				796111AB8480BA672F1ACC44 /* Pods-AutoSheetViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B01271D25C61AF30004DAC4 /* Build configuration list for PBXNativeTarget "AutoSheetViewer" */;
 			buildPhases = (
+				3EC21C73EC4AB3393E6369F8 /* [CP] Check Pods Manifest.lock */,
 				6B01270525C61AF10004DAC4 /* Sources */,
 				6B01270625C61AF10004DAC4 /* Frameworks */,
 				6B01270725C61AF10004DAC4 /* Resources */,
+				F2526294ACB5743819D854AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +166,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EC21C73EC4AB3393E6369F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoSheetViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2526294ACB5743819D854AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Beethoven/Beethoven.framework",
+				"${BUILT_PRODUCTS_DIR}/Pitchy/Pitchy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Beethoven.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pitchy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B01270525C61AF10004DAC4 /* Sources */ = {
@@ -282,6 +349,7 @@
 		};
 		6B01271E25C61AF30004DAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598ECF8E8DBB1C81858996F /* Pods-AutoSheetViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +370,7 @@
 		};
 		6B01271F25C61AF30004DAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796111AB8480BA672F1ACC44 /* Pods-AutoSheetViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
