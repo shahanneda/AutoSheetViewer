@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025279C79F21B1E3212222CB1CC983A7 /* Pitchy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACACA5725B43D91D30E423BF0B1B3190 /* Pitchy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038FC8A6DB08E432B26247C14A7A0F9C /* AcousticWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A68D1E7763E33C35C0FEE03261BEF7 /* AcousticWave.swift */; };
+		06956A2A0A014D6F89CB9AD532A36C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E75A76EC5A705E694DF7B98AD8FC252 /* Foundation.framework */; };
+		0C8F81E461BA1031DC3D14EC7B7D3B61 /* InputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC69CB9982F397623A27819C02BBDC9 /* InputSignalTracker.swift */; };
+		13B6A4E5FA7262B40180508FA8B84562 /* NoteCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327ABBEF54E7DBD5D2EB10CD01E3BA8B /* NoteCalculator.swift */; };
+		1CC7188EEF9E5D102DA4E59BEBDD16A9 /* Beethoven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2293DA4DAEBA4280B3BB99722F330119 /* Beethoven-dummy.m */; };
+		1F7A5FE8EE778CDA8CB4E67585EFA01E /* EstimationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A670E1E288C7993EE2902A5E33F257D /* EstimationStrategy.swift */; };
+		277EE388AFD35E39ADE59138671BC476 /* PitchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC1CC53473B217C9319C25321F7676 /* PitchEngine.swift */; };
+		300A1B44F9BFC949EF40D6F41F1FF04D /* OutputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B6890D6D56C7FC4DE6EC8EB317FF /* OutputSignalTracker.swift */; };
+		3DE85FDEABDF039FCA47ECF2158314CE /* EstimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4368B2AA8477D1531D383407B6F54 /* EstimationFactory.swift */; };
+		3EE57CBABDA62A38BAA64A179358F4A7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605F13974AF131BB7E26EA4AB622095 /* Error.swift */; };
+		3EF949F8AB1ABB742BD097EF5D863B91 /* QuadradicEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D131A0FCD72BDDCD04AFF8CDFEA828D /* QuadradicEstimator.swift */; };
+		40DB625EA84F28772582699133CFCD9C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1775D709215EFFEB5A9CB8289A6E319 /* Note.swift */; };
+		4C40901535B4BEC2DB256D5AC91DC75B /* Beethoven-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F61A59CB15F40F3CE39BEE45619AFA /* Beethoven-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508F98F1208B96B7F75774752BB591A1 /* FrequencyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F00A1BBC7EC252ADAE7B73CA8FE75B /* FrequencyValidator.swift */; };
+		547C9DA9375BDF78280E645A8EE48839 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DB8558753DD36EBA0321084D8F7DB /* Pitch.swift */; };
+		55163DDE2D8AF953BAED1E7891B36382 /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFE380A119654E01CCD43FCF05AE7A /* WaveCalculator.swift */; };
+		5D33EA875125D2EB213CB437ABBAD1B3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291021F8D83A133182CA26DBC1CB7CE9 /* Config.swift */; };
+		7164E953A0F08D4CD8423DD352D4489D /* SimpleTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADAAEFB08D0478C958B112E51FCFC6 /* SimpleTransformer.swift */; };
+		75B372C1FC0318A4F22F88056B665374 /* HPSEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BC0C0EB1C10B887521B84488DE3D /* HPSEstimator.swift */; };
+		7FFC6F4A0A31D32F6CAF095248250F7C /* YINUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF923494EE016E4D5A9FFD8EC778D3A9 /* YINUtil.swift */; };
+		942DF28CCB7256F40D34770FA6E4CB9A /* PitchCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD3B8B3C8368631E8F513D71F472C4 /* PitchCalculator.swift */; };
+		9BD486805055DF7959BD6DF460A33395 /* YINTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5ABB34C1A153614EDC21B977EFF211 /* YINTransformer.swift */; };
+		9E7C67B03DFCB7EE0F9E04737CBCD145 /* Pods-AutoSheetViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 654E6578F0C92316C9094AB97F70640F /* Pods-AutoSheetViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F391292CE21835ADAC0A91052C0E0EB /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CE40D3CA713D3372504837FE0FCD22 /* Pitchy.framework */; };
+		A2B72D5160863ABF5626D83494A7A4E9 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5696B0CB6A36B526D8DB2CE74147E8 /* Transformer.swift */; };
+		A59C5501738DC535D222D6B14ACAFB46 /* Pods-AutoSheetViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8511C858199A844ACFF01A3C43267263 /* Pods-AutoSheetViewer-dummy.m */; };
+		AB99AC433942E2AFE824B3E77A625587 /* EstimationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A81DAF25E459DC4401E9DED48A08D5 /* EstimationError.swift */; };
+		ABF4911A2F18A19C017A70D12AFFC00A /* BarycentricEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438224CB61E1E082ED8C501010E7A256 /* BarycentricEstimator.swift */; };
+		B1BB00F1BFE895CA5AB6D72A08ABE1F6 /* SignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC51185A53762A02454A4A9BA56AF3 /* SignalTracker.swift */; };
+		B3152AE06E3E2B7F36ED6046F30A8B63 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DA6ED9F2300C7B2CA06E125F4F6502 /* Buffer.swift */; };
+		B78C3DF65C352BDEB337BBA677F4D8EA /* MaxValueEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67AB2AF9FF0B742575CA3F2F189352 /* MaxValueEstimator.swift */; };
+		B952AC82AAC2803650FF897F9A83B1D4 /* SimulatorSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE058D24B5572C577BFF64A059DA2 /* SimulatorSignalTracker.swift */; };
+		C21A087236C062FEFDEF32FC33224CA9 /* QuinnsFirstEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF9E11E6B9337B0A6D52D32BD6BC75 /* QuinnsFirstEstimator.swift */; };
+		CC6226F78C3D1F8099E0058140EB40FB /* QuinnsSecondEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA2C10A495696E880D51300D9141619 /* QuinnsSecondEstimator.swift */; };
+		D1F24DCBBF9C429C7D4D31B86DF7A50E /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA4EBA0DFB59184F415C641F156DB8 /* Estimator.swift */; };
+		D9D11138DF96F7A12CF9237B277A2D90 /* LocationEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373A64DCC5688E8A0139423453F2C45 /* LocationEstimator.swift */; };
+		DA5CC65E7F16B825A7CCCCF8F221F66F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FC1B73611FC75381919AB3AC04707 /* Array+Extensions.swift */; };
+		DC5B0B0B62B5B747A877982909C47C31 /* Pitchy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F4180D54E00AA5E5F639341BDAF67 /* Pitchy-dummy.m */; };
+		DCC38C52F1367036EE1C814CBF08C8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E75A76EC5A705E694DF7B98AD8FC252 /* Foundation.framework */; };
+		DF3F71D938A1BB99EF4C7EA761CDF477 /* YINEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A83F690F2BA5B7F9F7B130F16BCC15 /* YINEstimator.swift */; };
+		EB8EDEF4A6D31ED096846CE0BC2D35C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297D98F191822433CF6403263AA497CF /* AVFoundation.framework */; };
+		EC7413995EF483AF9FC135E609CCAA7C /* JainsEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3AFA25A1916F6F66C95F15AA3E21BC /* JainsEstimator.swift */; };
+		EE0E4E357ED6A17F1BE038E0523D7926 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B511A6037265B0BDFF35B86CCC698F9C /* Accelerate.framework */; };
+		EF1992728328F6FC6EFCA3217F38F165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E75A76EC5A705E694DF7B98AD8FC252 /* Foundation.framework */; };
+		EF83575F16591B21D3CECCE578065531 /* FFTTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E93537B3E39B2D17483CDF9E598ECB2 /* FFTTransformer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198E794E8A393267EE2A518CD3CE5721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8C1004EB20C58A2EEFF8A858689EF1;
+			remoteInfo = Beethoven;
+		};
+		1FA8D6276592CE59FB0CB9D511BC5775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B2D9F24719125BCE1D5B96D0DD8FC6;
+			remoteInfo = Pitchy;
+		};
+		45E15C818D43C4188C56EEAA92E00AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B2D9F24719125BCE1D5B96D0DD8FC6;
+			remoteInfo = Pitchy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E95172A0F7FB93C554C0A0A315F2C8 /* Pitchy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pitchy-prefix.pch"; sourceTree = "<group>"; };
+		0192BD27A89667CE9598CAA820046DC8 /* Beethoven.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Beethoven.modulemap; sourceTree = "<group>"; };
+		0E18B6890D6D56C7FC4DE6EC8EB317FF /* OutputSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OutputSignalTracker.swift; path = Source/SignalTracking/Units/OutputSignalTracker.swift; sourceTree = "<group>"; };
+		0F67AB2AF9FF0B742575CA3F2F189352 /* MaxValueEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxValueEstimator.swift; path = Source/Estimation/Strategies/MaxValueEstimator.swift; sourceTree = "<group>"; };
+		12D2126D3C759C57B3A0A8265398C4F9 /* Pitchy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pitchy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1605F13974AF131BB7E26EA4AB622095 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		1A670E1E288C7993EE2902A5E33F257D /* EstimationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationStrategy.swift; path = Source/Estimation/EstimationStrategy.swift; sourceTree = "<group>"; };
+		21ADAAEFB08D0478C958B112E51FCFC6 /* SimpleTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTransformer.swift; path = Source/Transform/Strategies/SimpleTransformer.swift; sourceTree = "<group>"; };
+		2293DA4DAEBA4280B3BB99722F330119 /* Beethoven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Beethoven-dummy.m"; sourceTree = "<group>"; };
+		291021F8D83A133182CA26DBC1CB7CE9 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Source/Config.swift; sourceTree = "<group>"; };
+		297D98F191822433CF6403263AA497CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C576C612C90D42C6835FE76A3C03481 /* Pods-AutoSheetViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoSheetViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		31F00A1BBC7EC252ADAE7B73CA8FE75B /* FrequencyValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrequencyValidator.swift; path = Source/FrequencyValidator.swift; sourceTree = "<group>"; };
+		327ABBEF54E7DBD5D2EB10CD01E3BA8B /* NoteCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoteCalculator.swift; path = Source/Calculators/NoteCalculator.swift; sourceTree = "<group>"; };
+		359B404119C39D6EB049C9FF79283A0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387BB24565C6BEC22055E13C7CBF8B00 /* Pods-AutoSheetViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoSheetViewer-resources.sh"; sourceTree = "<group>"; };
+		3A5ABB34C1A153614EDC21B977EFF211 /* YINTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINTransformer.swift; path = Source/Transform/Strategies/YINTransformer.swift; sourceTree = "<group>"; };
+		3D131A0FCD72BDDCD04AFF8CDFEA828D /* QuadradicEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadradicEstimator.swift; path = Source/Estimation/Strategies/QuadradicEstimator.swift; sourceTree = "<group>"; };
+		438224CB61E1E082ED8C501010E7A256 /* BarycentricEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarycentricEstimator.swift; path = Source/Estimation/Strategies/BarycentricEstimator.swift; sourceTree = "<group>"; };
+		49FA4EBA0DFB59184F415C641F156DB8 /* Estimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Estimator.swift; path = Source/Estimation/Estimator.swift; sourceTree = "<group>"; };
+		4A7143E99C5260B28D639BF5B01913C1 /* Pods-AutoSheetViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoSheetViewer-frameworks.sh"; sourceTree = "<group>"; };
+		4E93537B3E39B2D17483CDF9E598ECB2 /* FFTTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFTTransformer.swift; path = Source/Transform/Strategies/FFTTransformer.swift; sourceTree = "<group>"; };
+		54EC1CC53473B217C9319C25321F7676 /* PitchEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchEngine.swift; path = Source/PitchEngine.swift; sourceTree = "<group>"; };
+		5D3AFA25A1916F6F66C95F15AA3E21BC /* JainsEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JainsEstimator.swift; path = Source/Estimation/Strategies/JainsEstimator.swift; sourceTree = "<group>"; };
+		5E75A76EC5A705E694DF7B98AD8FC252 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EC69CB9982F397623A27819C02BBDC9 /* InputSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputSignalTracker.swift; path = Source/SignalTracking/Units/InputSignalTracker.swift; sourceTree = "<group>"; };
+		5FAC51185A53762A02454A4A9BA56AF3 /* SignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalTracker.swift; path = Source/SignalTracking/SignalTracker.swift; sourceTree = "<group>"; };
+		61A68D1E7763E33C35C0FEE03261BEF7 /* AcousticWave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcousticWave.swift; path = Source/Data/AcousticWave.swift; sourceTree = "<group>"; };
+		62A83F690F2BA5B7F9F7B130F16BCC15 /* YINEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINEstimator.swift; path = Source/Estimation/Strategies/YINEstimator.swift; sourceTree = "<group>"; };
+		653C0FCE36B2EEF3AA05498A8D1ACBB2 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E6578F0C92316C9094AB97F70640F /* Pods-AutoSheetViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoSheetViewer-umbrella.h"; sourceTree = "<group>"; };
+		68631EC66200FC5E2034BF735277A8DC /* Pitchy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pitchy.modulemap; sourceTree = "<group>"; };
+		725D7BB04738CA0D1A00B49937DCA259 /* Beethoven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Beethoven-prefix.pch"; sourceTree = "<group>"; };
+		82DA6ED9F2300C7B2CA06E125F4F6502 /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = Source/Library/Buffer.swift; sourceTree = "<group>"; };
+		8511C858199A844ACFF01A3C43267263 /* Pods-AutoSheetViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoSheetViewer-dummy.m"; sourceTree = "<group>"; };
+		8BBC95AE919F0ECE64551D0BAFF959AB /* Pods-AutoSheetViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoSheetViewer-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BCF9E11E6B9337B0A6D52D32BD6BC75 /* QuinnsFirstEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuinnsFirstEstimator.swift; path = Source/Estimation/Strategies/QuinnsFirstEstimator.swift; sourceTree = "<group>"; };
+		9182AD205513B464DCC962CFFF2BAE26 /* Beethoven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Beethoven.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957FC1B73611FC75381919AB3AC04707 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Source/Library/Extensions/Array+Extensions.swift"; sourceTree = "<group>"; };
+		95B1CFC1920114A55B73E25580E7BD28 /* Pods-AutoSheetViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoSheetViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EFD3B8B3C8368631E8F513D71F472C4 /* PitchCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchCalculator.swift; path = Source/Calculators/PitchCalculator.swift; sourceTree = "<group>"; };
+		A5CEE058D24B5572C577BFF64A059DA2 /* SimulatorSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimulatorSignalTracker.swift; path = Source/SignalTracking/Units/SimulatorSignalTracker.swift; sourceTree = "<group>"; };
+		ACACA5725B43D91D30E423BF0B1B3190 /* Pitchy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pitchy-umbrella.h"; sourceTree = "<group>"; };
+		AE5696B0CB6A36B526D8DB2CE74147E8 /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformer.swift; path = Source/Transform/Transformer.swift; sourceTree = "<group>"; };
+		B0EFE380A119654E01CCD43FCF05AE7A /* WaveCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveCalculator.swift; path = Source/Calculators/WaveCalculator.swift; sourceTree = "<group>"; };
+		B25F4180D54E00AA5E5F639341BDAF67 /* Pitchy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pitchy-dummy.m"; sourceTree = "<group>"; };
+		B3C9F5F6C13C7EDB943C21EFFB4E67F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B511A6037265B0BDFF35B86CCC698F9C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		B9A81DAF25E459DC4401E9DED48A08D5 /* EstimationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationError.swift; path = Source/Estimation/EstimationError.swift; sourceTree = "<group>"; };
+		BFC4368B2AA8477D1531D383407B6F54 /* EstimationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationFactory.swift; path = Source/Estimation/EstimationFactory.swift; sourceTree = "<group>"; };
+		C073BC0C0EB1C10B887521B84488DE3D /* HPSEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HPSEstimator.swift; path = Source/Estimation/Strategies/HPSEstimator.swift; sourceTree = "<group>"; };
+		C35AF57B17DB800670046C3844F6BB01 /* Pitchy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pitchy.xcconfig; sourceTree = "<group>"; };
+		C3C81794997F5938E3519B05ED3747E0 /* Pods-AutoSheetViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoSheetViewer.release.xcconfig"; sourceTree = "<group>"; };
+		C7F61A59CB15F40F3CE39BEE45619AFA /* Beethoven-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Beethoven-umbrella.h"; sourceTree = "<group>"; };
+		D1775D709215EFFEB5A9CB8289A6E319 /* Note.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Note.swift; path = Source/Data/Note.swift; sourceTree = "<group>"; };
+		D3CE40D3CA713D3372504837FE0FCD22 /* Pitchy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pitchy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98929047331133081A43805494F9981 /* Pods-AutoSheetViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoSheetViewer.modulemap"; sourceTree = "<group>"; };
+		DEA2C10A495696E880D51300D9141619 /* QuinnsSecondEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuinnsSecondEstimator.swift; path = Source/Estimation/Strategies/QuinnsSecondEstimator.swift; sourceTree = "<group>"; };
+		EC2FAC2FCA8AD1945D956EC8BA632E5B /* Pods_AutoSheetViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoSheetViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF923494EE016E4D5A9FFD8EC778D3A9 /* YINUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINUtil.swift; path = Source/Library/YINUtil.swift; sourceTree = "<group>"; };
+		F2BCF65A09D90331520C439CB2F2D9AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F373A64DCC5688E8A0139423453F2C45 /* LocationEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationEstimator.swift; path = Source/Estimation/LocationEstimator.swift; sourceTree = "<group>"; };
+		FC5DB8558753DD36EBA0321084D8F7DB /* Pitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pitch.swift; path = Source/Data/Pitch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3CC06DF84EEB8C48E42DA8DBA2E8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0E4E357ED6A17F1BE038E0523D7926 /* Accelerate.framework in Frameworks */,
+				EB8EDEF4A6D31ED096846CE0BC2D35C3 /* AVFoundation.framework in Frameworks */,
+				DCC38C52F1367036EE1C814CBF08C8B3 /* Foundation.framework in Frameworks */,
+				9F391292CE21835ADAC0A91052C0E0EB /* Pitchy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DBA2AFE51CC2DF11C74CF97DB4DDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1992728328F6FC6EFCA3217F38F165 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E302F15EB7699AFBE9DEF3D381BE97E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06956A2A0A014D6F89CB9AD532A36C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D07DA8FDEF84D49BC30CD4FF27FA849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653C0FCE36B2EEF3AA05498A8D1ACBB2 /* Beethoven.framework */,
+				12D2126D3C759C57B3A0A8265398C4F9 /* Pitchy.framework */,
+				EC2FAC2FCA8AD1945D956EC8BA632E5B /* Pods_AutoSheetViewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6468EC76CE1D09A08D5AE1030359FCF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0192BD27A89667CE9598CAA820046DC8 /* Beethoven.modulemap */,
+				9182AD205513B464DCC962CFFF2BAE26 /* Beethoven.xcconfig */,
+				2293DA4DAEBA4280B3BB99722F330119 /* Beethoven-dummy.m */,
+				725D7BB04738CA0D1A00B49937DCA259 /* Beethoven-prefix.pch */,
+				C7F61A59CB15F40F3CE39BEE45619AFA /* Beethoven-umbrella.h */,
+				F2BCF65A09D90331520C439CB2F2D9AE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Beethoven";
+			sourceTree = "<group>";
+		};
+		6D0A59D5842F39BE941A76A3D94FA436 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AA38DCE982C41923FA0A805375A360 /* Pods-AutoSheetViewer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74AA38DCE982C41923FA0A805375A360 /* Pods-AutoSheetViewer */ = {
+			isa = PBXGroup;
+			children = (
+				359B404119C39D6EB049C9FF79283A0E /* Info.plist */,
+				D98929047331133081A43805494F9981 /* Pods-AutoSheetViewer.modulemap */,
+				95B1CFC1920114A55B73E25580E7BD28 /* Pods-AutoSheetViewer-acknowledgements.markdown */,
+				8BBC95AE919F0ECE64551D0BAFF959AB /* Pods-AutoSheetViewer-acknowledgements.plist */,
+				8511C858199A844ACFF01A3C43267263 /* Pods-AutoSheetViewer-dummy.m */,
+				4A7143E99C5260B28D639BF5B01913C1 /* Pods-AutoSheetViewer-frameworks.sh */,
+				387BB24565C6BEC22055E13C7CBF8B00 /* Pods-AutoSheetViewer-resources.sh */,
+				654E6578F0C92316C9094AB97F70640F /* Pods-AutoSheetViewer-umbrella.h */,
+				2C576C612C90D42C6835FE76A3C03481 /* Pods-AutoSheetViewer.debug.xcconfig */,
+				C3C81794997F5938E3519B05ED3747E0 /* Pods-AutoSheetViewer.release.xcconfig */,
+			);
+			name = "Pods-AutoSheetViewer";
+			path = "Target Support Files/Pods-AutoSheetViewer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				89A393472C9E49796F8438793244D3C8 /* Frameworks */,
+				CD314680FD8D02C82E9368D91ED3DC87 /* Pods */,
+				0D07DA8FDEF84D49BC30CD4FF27FA849 /* Products */,
+				6D0A59D5842F39BE941A76A3D94FA436 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88853593040D85BA67E463E04F0403DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C9F5F6C13C7EDB943C21EFFB4E67F2 /* Info.plist */,
+				68631EC66200FC5E2034BF735277A8DC /* Pitchy.modulemap */,
+				C35AF57B17DB800670046C3844F6BB01 /* Pitchy.xcconfig */,
+				B25F4180D54E00AA5E5F639341BDAF67 /* Pitchy-dummy.m */,
+				00E95172A0F7FB93C554C0A0A315F2C8 /* Pitchy-prefix.pch */,
+				ACACA5725B43D91D30E423BF0B1B3190 /* Pitchy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pitchy";
+			sourceTree = "<group>";
+		};
+		89A393472C9E49796F8438793244D3C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE40D3CA713D3372504837FE0FCD22 /* Pitchy.framework */,
+				EAD5775A885A6B990ED12A797BE0A98E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D553B00B0BFADC63E6F7C44137EFCB0 /* Pitchy */ = {
+			isa = PBXGroup;
+			children = (
+				61A68D1E7763E33C35C0FEE03261BEF7 /* AcousticWave.swift */,
+				1605F13974AF131BB7E26EA4AB622095 /* Error.swift */,
+				31F00A1BBC7EC252ADAE7B73CA8FE75B /* FrequencyValidator.swift */,
+				D1775D709215EFFEB5A9CB8289A6E319 /* Note.swift */,
+				327ABBEF54E7DBD5D2EB10CD01E3BA8B /* NoteCalculator.swift */,
+				FC5DB8558753DD36EBA0321084D8F7DB /* Pitch.swift */,
+				9EFD3B8B3C8368631E8F513D71F472C4 /* PitchCalculator.swift */,
+				B0EFE380A119654E01CCD43FCF05AE7A /* WaveCalculator.swift */,
+				88853593040D85BA67E463E04F0403DA /* Support Files */,
+			);
+			path = Pitchy;
+			sourceTree = "<group>";
+		};
+		96892621A1851AD41CBE7F7C885FCE85 /* Beethoven */ = {
+			isa = PBXGroup;
+			children = (
+				957FC1B73611FC75381919AB3AC04707 /* Array+Extensions.swift */,
+				438224CB61E1E082ED8C501010E7A256 /* BarycentricEstimator.swift */,
+				82DA6ED9F2300C7B2CA06E125F4F6502 /* Buffer.swift */,
+				291021F8D83A133182CA26DBC1CB7CE9 /* Config.swift */,
+				B9A81DAF25E459DC4401E9DED48A08D5 /* EstimationError.swift */,
+				BFC4368B2AA8477D1531D383407B6F54 /* EstimationFactory.swift */,
+				1A670E1E288C7993EE2902A5E33F257D /* EstimationStrategy.swift */,
+				49FA4EBA0DFB59184F415C641F156DB8 /* Estimator.swift */,
+				4E93537B3E39B2D17483CDF9E598ECB2 /* FFTTransformer.swift */,
+				C073BC0C0EB1C10B887521B84488DE3D /* HPSEstimator.swift */,
+				5EC69CB9982F397623A27819C02BBDC9 /* InputSignalTracker.swift */,
+				5D3AFA25A1916F6F66C95F15AA3E21BC /* JainsEstimator.swift */,
+				F373A64DCC5688E8A0139423453F2C45 /* LocationEstimator.swift */,
+				0F67AB2AF9FF0B742575CA3F2F189352 /* MaxValueEstimator.swift */,
+				0E18B6890D6D56C7FC4DE6EC8EB317FF /* OutputSignalTracker.swift */,
+				54EC1CC53473B217C9319C25321F7676 /* PitchEngine.swift */,
+				3D131A0FCD72BDDCD04AFF8CDFEA828D /* QuadradicEstimator.swift */,
+				8BCF9E11E6B9337B0A6D52D32BD6BC75 /* QuinnsFirstEstimator.swift */,
+				DEA2C10A495696E880D51300D9141619 /* QuinnsSecondEstimator.swift */,
+				5FAC51185A53762A02454A4A9BA56AF3 /* SignalTracker.swift */,
+				21ADAAEFB08D0478C958B112E51FCFC6 /* SimpleTransformer.swift */,
+				A5CEE058D24B5572C577BFF64A059DA2 /* SimulatorSignalTracker.swift */,
+				AE5696B0CB6A36B526D8DB2CE74147E8 /* Transformer.swift */,
+				62A83F690F2BA5B7F9F7B130F16BCC15 /* YINEstimator.swift */,
+				3A5ABB34C1A153614EDC21B977EFF211 /* YINTransformer.swift */,
+				EF923494EE016E4D5A9FFD8EC778D3A9 /* YINUtil.swift */,
+				6468EC76CE1D09A08D5AE1030359FCF2 /* Support Files */,
+			);
+			path = Beethoven;
+			sourceTree = "<group>";
+		};
+		CD314680FD8D02C82E9368D91ED3DC87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96892621A1851AD41CBE7F7C885FCE85 /* Beethoven */,
+				8D553B00B0BFADC63E6F7C44137EFCB0 /* Pitchy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAD5775A885A6B990ED12A797BE0A98E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B511A6037265B0BDFF35B86CCC698F9C /* Accelerate.framework */,
+				297D98F191822433CF6403263AA497CF /* AVFoundation.framework */,
+				5E75A76EC5A705E694DF7B98AD8FC252 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39D63592AF2BD08D038028DF2AC4BE8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7C67B03DFCB7EE0F9E04737CBCD145 /* Pods-AutoSheetViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8730554972600D86E43F3B15E3BF6DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C40901535B4BEC2DB256D5AC91DC75B /* Beethoven-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36E55281966A8F91E159DF7EC2629CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025279C79F21B1E3212222CB1CC983A7 /* Pitchy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B8C1004EB20C58A2EEFF8A858689EF1 /* Beethoven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F2FA31F4982A325C75C9DFCBC6DBCC /* Build configuration list for PBXNativeTarget "Beethoven" */;
+			buildPhases = (
+				4B7123ABEB985160F3F0FA5594DB6A3E /* Sources */,
+				0C3CC06DF84EEB8C48E42DA8DBA2E8B3 /* Frameworks */,
+				8730554972600D86E43F3B15E3BF6DE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1F4A85FE1A22E243C9055E9AD3EDC7 /* PBXTargetDependency */,
+			);
+			name = Beethoven;
+			productName = Beethoven;
+			productReference = 653C0FCE36B2EEF3AA05498A8D1ACBB2 /* Beethoven.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5B2D9F24719125BCE1D5B96D0DD8FC6 /* Pitchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54BAD82CF479F963346729051B537A2 /* Build configuration list for PBXNativeTarget "Pitchy" */;
+			buildPhases = (
+				27ECA2873197C506B702C64FB25C4123 /* Sources */,
+				E302F15EB7699AFBE9DEF3D381BE97E3 /* Frameworks */,
+				E36E55281966A8F91E159DF7EC2629CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitchy;
+			productName = Pitchy;
+			productReference = 12D2126D3C759C57B3A0A8265398C4F9 /* Pitchy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDECC07DA2191764DC98FD66444B405 /* Pods-AutoSheetViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75035C6712BE9FED200D5A8A75E5E0CD /* Build configuration list for PBXNativeTarget "Pods-AutoSheetViewer" */;
+			buildPhases = (
+				A7BF48941E736988587A660294210DFF /* Sources */,
+				65DBA2AFE51CC2DF11C74CF97DB4DDDB /* Frameworks */,
+				39D63592AF2BD08D038028DF2AC4BE8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4ACC5512FBD5122DE07458626A6CAC /* PBXTargetDependency */,
+				0BE1E1BC2B5E7798E1B8C1F051A6D3B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AutoSheetViewer";
+			productName = "Pods-AutoSheetViewer";
+			productReference = EC2FAC2FCA8AD1945D956EC8BA632E5B /* Pods_AutoSheetViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D07DA8FDEF84D49BC30CD4FF27FA849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8C1004EB20C58A2EEFF8A858689EF1 /* Beethoven */,
+				C5B2D9F24719125BCE1D5B96D0DD8FC6 /* Pitchy */,
+				CFDECC07DA2191764DC98FD66444B405 /* Pods-AutoSheetViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27ECA2873197C506B702C64FB25C4123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038FC8A6DB08E432B26247C14A7A0F9C /* AcousticWave.swift in Sources */,
+				3EE57CBABDA62A38BAA64A179358F4A7 /* Error.swift in Sources */,
+				508F98F1208B96B7F75774752BB591A1 /* FrequencyValidator.swift in Sources */,
+				40DB625EA84F28772582699133CFCD9C /* Note.swift in Sources */,
+				13B6A4E5FA7262B40180508FA8B84562 /* NoteCalculator.swift in Sources */,
+				547C9DA9375BDF78280E645A8EE48839 /* Pitch.swift in Sources */,
+				942DF28CCB7256F40D34770FA6E4CB9A /* PitchCalculator.swift in Sources */,
+				DC5B0B0B62B5B747A877982909C47C31 /* Pitchy-dummy.m in Sources */,
+				55163DDE2D8AF953BAED1E7891B36382 /* WaveCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7123ABEB985160F3F0FA5594DB6A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5CC65E7F16B825A7CCCCF8F221F66F /* Array+Extensions.swift in Sources */,
+				ABF4911A2F18A19C017A70D12AFFC00A /* BarycentricEstimator.swift in Sources */,
+				1CC7188EEF9E5D102DA4E59BEBDD16A9 /* Beethoven-dummy.m in Sources */,
+				B3152AE06E3E2B7F36ED6046F30A8B63 /* Buffer.swift in Sources */,
+				5D33EA875125D2EB213CB437ABBAD1B3 /* Config.swift in Sources */,
+				AB99AC433942E2AFE824B3E77A625587 /* EstimationError.swift in Sources */,
+				3DE85FDEABDF039FCA47ECF2158314CE /* EstimationFactory.swift in Sources */,
+				1F7A5FE8EE778CDA8CB4E67585EFA01E /* EstimationStrategy.swift in Sources */,
+				D1F24DCBBF9C429C7D4D31B86DF7A50E /* Estimator.swift in Sources */,
+				EF83575F16591B21D3CECCE578065531 /* FFTTransformer.swift in Sources */,
+				75B372C1FC0318A4F22F88056B665374 /* HPSEstimator.swift in Sources */,
+				0C8F81E461BA1031DC3D14EC7B7D3B61 /* InputSignalTracker.swift in Sources */,
+				EC7413995EF483AF9FC135E609CCAA7C /* JainsEstimator.swift in Sources */,
+				D9D11138DF96F7A12CF9237B277A2D90 /* LocationEstimator.swift in Sources */,
+				B78C3DF65C352BDEB337BBA677F4D8EA /* MaxValueEstimator.swift in Sources */,
+				300A1B44F9BFC949EF40D6F41F1FF04D /* OutputSignalTracker.swift in Sources */,
+				277EE388AFD35E39ADE59138671BC476 /* PitchEngine.swift in Sources */,
+				3EF949F8AB1ABB742BD097EF5D863B91 /* QuadradicEstimator.swift in Sources */,
+				C21A087236C062FEFDEF32FC33224CA9 /* QuinnsFirstEstimator.swift in Sources */,
+				CC6226F78C3D1F8099E0058140EB40FB /* QuinnsSecondEstimator.swift in Sources */,
+				B1BB00F1BFE895CA5AB6D72A08ABE1F6 /* SignalTracker.swift in Sources */,
+				7164E953A0F08D4CD8423DD352D4489D /* SimpleTransformer.swift in Sources */,
+				B952AC82AAC2803650FF897F9A83B1D4 /* SimulatorSignalTracker.swift in Sources */,
+				A2B72D5160863ABF5626D83494A7A4E9 /* Transformer.swift in Sources */,
+				DF3F71D938A1BB99EF4C7EA761CDF477 /* YINEstimator.swift in Sources */,
+				9BD486805055DF7959BD6DF460A33395 /* YINTransformer.swift in Sources */,
+				7FFC6F4A0A31D32F6CAF095248250F7C /* YINUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF48941E736988587A660294210DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59C5501738DC535D222D6B14ACAFB46 /* Pods-AutoSheetViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BE1E1BC2B5E7798E1B8C1F051A6D3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pitchy;
+			target = C5B2D9F24719125BCE1D5B96D0DD8FC6 /* Pitchy */;
+			targetProxy = 45E15C818D43C4188C56EEAA92E00AE8 /* PBXContainerItemProxy */;
+		};
+		4B1F4A85FE1A22E243C9055E9AD3EDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pitchy;
+			target = C5B2D9F24719125BCE1D5B96D0DD8FC6 /* Pitchy */;
+			targetProxy = 1FA8D6276592CE59FB0CB9D511BC5775 /* PBXContainerItemProxy */;
+		};
+		AB4ACC5512FBD5122DE07458626A6CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Beethoven;
+			target = 8B8C1004EB20C58A2EEFF8A858689EF1 /* Beethoven */;
+			targetProxy = 198E794E8A393267EE2A518CD3CE5721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1655026636817ADB3428A14C9193896B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35AF57B17DB800670046C3844F6BB01 /* Pitchy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pitchy/Pitchy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pitchy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pitchy/Pitchy.modulemap";
+				PRODUCT_MODULE_NAME = Pitchy;
+				PRODUCT_NAME = Pitchy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		177BB12D0FCD86CAF79E4C35015426B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20938CAB5561F32155B5F400C2AA1E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9182AD205513B464DCC962CFFF2BAE26 /* Beethoven.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Beethoven/Beethoven-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Beethoven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Beethoven/Beethoven.modulemap";
+				PRODUCT_MODULE_NAME = Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4446F889121B8CCADD94F935C47BE384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C576C612C90D42C6835FE76A3C03481 /* Pods-AutoSheetViewer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoSheetViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54BD193BEA4652A1039B0FDD3C22BB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35AF57B17DB800670046C3844F6BB01 /* Pitchy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pitchy/Pitchy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pitchy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pitchy/Pitchy.modulemap";
+				PRODUCT_MODULE_NAME = Pitchy;
+				PRODUCT_NAME = Pitchy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		572E49FEE493C3DA18A7859BC7868E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A79CDC8D47DBF86166EC4EA2547E3F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C81794997F5938E3519B05ED3747E0 /* Pods-AutoSheetViewer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoSheetViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoSheetViewer/Pods-AutoSheetViewer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA1B9B487B2098B751C08E71F930738F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9182AD205513B464DCC962CFFF2BAE26 /* Beethoven.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Beethoven/Beethoven-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Beethoven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Beethoven/Beethoven.modulemap";
+				PRODUCT_MODULE_NAME = Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177BB12D0FCD86CAF79E4C35015426B2 /* Debug */,
+				572E49FEE493C3DA18A7859BC7868E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75035C6712BE9FED200D5A8A75E5E0CD /* Build configuration list for PBXNativeTarget "Pods-AutoSheetViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4446F889121B8CCADD94F935C47BE384 /* Debug */,
+				A79CDC8D47DBF86166EC4EA2547E3F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54BAD82CF479F963346729051B537A2 /* Build configuration list for PBXNativeTarget "Pitchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BD193BEA4652A1039B0FDD3C22BB97 /* Debug */,
+				1655026636817ADB3428A14C9193896B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F2FA31F4982A325C75C9DFCBC6DBCC /* Build configuration list for PBXNativeTarget "Beethoven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20938CAB5561F32155B5F400C2AA1E83 /* Debug */,
+				DA1B9B487B2098B751C08E71F930738F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
