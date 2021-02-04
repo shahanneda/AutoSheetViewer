@@ -28,6 +28,14 @@ struct ContentView: View {
           estimationStrategy: .yin
         )
 
+
+//        let delagate = PitchEngineDelegateImplementor();
+        let pitchEngine = PitchEngine(config: config)
+        pitchEngine.start()
+    }
+    
+    func AskForAudioPremission(){
+        
         switch AVAudioSession.sharedInstance().recordPermission {
         case AVAudioSessionRecordPermission.granted:
             print("Permission granted")
@@ -39,13 +47,6 @@ struct ContentView: View {
                 // Handle granted
             })
         }
-
-        let delagate = PitchEngineDelegateImplementor();
-        let pitchEngine = PitchEngine(config: config, delegate: delagate)
-        pitchEngine.start()
-
-
-
     }
 }
 
